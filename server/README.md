@@ -104,15 +104,13 @@ When I set out to build this app I only had basic knowledge of `React` and `Node
 
 This project utilizes a `Node.js` backend and a `React` frontend. 
 
-The `Node.js` backend is implemented as a REST API. Client side and Server side communicate with each other via the Axios API. I made use of multer for retrieving media images from the frontend and storing them within the backend. I applied redux reducers to persist data in local storage. 
+The `Node.js` backend is implemented as a REST API. Client side and Server side communicate with each other via the Axios API. I made use of multer for retrieving media images from the frontend and storing them within the backend. I applied redux thunk middleware to persist data in local storage. 
+
+I used MongoDB to store informations such as who followed/unfollowed eachother, who liked whose post and user authentication info. 
 
 Authentication is achieved using JWT.
 
-All forms have error highlighting with relevant messages,
 
-![Error highlighting](demo-errors.png)
-
-This is achieved by response from the API, not checked manually using JavaScript. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
