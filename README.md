@@ -43,11 +43,11 @@
     <br />
     <br />
     <br />
-    <a href="https://raw.githubusercontent.com/shamsow/django-react-homemaker/main/demo.gif" target='_blank'>View Full Demo</a>
+    <a href="https://drive.google.com/file/d/1HCuFMu5Jyr4Sq0XbiSyYldSRPE7e6YRg/view?usp=sharing" target='_blank'>View Full Demo</a>
     ·
-    <a href="https://github.com/shamsow/django-react-homemaker/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/hale2024/Hale-Insta/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/shamsow/django-react-homemaker/issues/new?assignees=&labels=enhancement&template=feature-addition.md&title=%5BFEATURE%5D">Suggest Feature</a>
+    <a href="https://github.com/hale2024/Hale-Insta/issues/new?assignees=&labels=enhancement&template=feature-addition.md&title=%5BFEATURE%5D">Suggest Feature</a>
   </p>
 </p>
 
@@ -88,7 +88,7 @@
 <!-- [![Product Name Screen Shot][product-screenshot]]() -->
 The motivation behind this project was to create a sophisticated application which requires in-depth planning to execute. This is without a doubt the most ambitious project I've done so far. 
 <br />
-When I set out to build this app I only had basic knowledge of `React`, and learning by doing proved to be the best way to pick up `React` fast.
+When I set out to build this app I only had basic knowledge of `React` and `Node.js` and learning by doing proved to be the best way to pick up `React` fast.
 
 ### **Built With**
 
@@ -98,22 +98,19 @@ When I set out to build this app I only had basic knowledge of `React`, and lear
 * `Express Server`
 * `JWT Authentication`
 * `React-Redux`
-* `Redux thunk`
 
 
 ### **Implementation details**
 
-This project utilizes a `django` backend and a `React` frontend. 
+This project utilizes a `Node.js` backend and a `React` frontend. 
 
-The `django` backend is implemented as a REST API using `django-rest-framework`. The react frontend uses `react-router-dom` for routing. Additionally, I heavily used `material-ui` for React components and design inspiration.
+The `Node.js` backend is implemented as a REST API. Client side and Server side communicate with each other via the Axios API. I made use of multer for retrieving media images from the frontend and storing them within the backend. I applied redux thunk middleware to persist data in local storage. 
+
+I used MongoDB to store informations such as who followed/unfollowed eachother, who liked whose post and user authentication info. 
 
 Authentication is achieved using JWT.
 
-All forms have error highlighting with relevant messages,
 
-![Error highlighting](demo-errors.png)
-
-This is achieved by response from the API, not checked manually using JavaScript. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -121,42 +118,36 @@ To get a local copy up and running follow these steps.
 
 ### Prerequisites
 
-* npm
+* backend
   ```sh
-  npm install npm@latest -g
+  npm init
+  npm i express
+  npm i mongoose
+  npm i body-parser
   ```
-* pip
+* frontend
 	```sh
-	python -m pip install --upgrade pip
+	npx create react
 	```
+	
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/shamsow/django-react-homemaker.git
-   ```
-2. Install NPM packages
-   ```sh
-   cd react/homemakerapi
-   npm install
-   ```
-3. Install pip packages
-	```sh
-	cd django
-	pip install -r requirements.txt
-	```
+* Cloning the Repo (the repo contains all the prerequisites installed within it)
+  ```sh
+ 	git clone https://github.com/hale2024/Hale-Insta.git
+  ```
+  
 ### Start
 
 * Backend
   ```sh
-  cd django
-  python manage.py migrate
-  python manage.py runserver
+  cd server
+  nodemon server
   ```
 * Frontend
   ```sh
-  cd react/homemakerapi
-  npm start
+  cd client
+  yarn start
   ```
 <!-- USAGE EXAMPLES -->
 <!-- ## Usage
@@ -170,12 +161,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/shamsow/django-react-homemaker/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/hale2024/Hale-Insta/issues) for a list of proposed features (and known issues).
 
 <!-- LICENSE -->
-## License
+## References
 
-Distributed under the MIT License.
+Various youtube tutorials and documentations on React, React-Redux, Node.js, MongoDB, JWT authentication,.....
 
 
 
