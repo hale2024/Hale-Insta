@@ -86,9 +86,9 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]]() -->
-The motivation behind this project was to create a sophisticated application which requires in-depth planning to execute. This is without a doubt the most ambitious project I've done so far. 
+My motivation for creating this project was creating a complicated project and consequently getting an indepth understanding of the full-stack development life cycle. This project required me to produce well thought out design and implementation plans. I think this is the project I am most proud of so far as a web developer.
 <br />
-When I set out to build this app I only had basic knowledge of `React` and `Node.js` and learning by doing proved to be the best way to pick up `React` fast.
+When I was begining this project, my react knowledge was very basic and this learning by doing path enabled to learn React and that I learnt better through solving new problems through intensive search rather than attending bootcamps. Furthermore, I was able to understand and pick up important middlewares like JWT.
 
 ### **Built With**
 
