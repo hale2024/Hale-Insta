@@ -1,70 +1,186 @@
-# Getting Started with Create React App
+# Hale-Insta
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+***
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username, repo_name, twitter_handle, email, project_title, project_description
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- [![Contributors][contributors-shield]][contributors-url] -->
+<!-- [![Forks][forks-shield]][forks-url] -->
+<!-- [![Stargazers][stars-shield]][stars-url] -->
+[![LinkedIn][linkedin-shield]][linkedin-url] ![GitHub issues][issues-url] 
+<!-- [![MIT License][license-shield]][license-url] -->
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/shamsow/django-react-homemaker">
+   
+  </a>
+  <img src="Hale-Insta.png" alt="Logo" width="" height="">
+  <h3 align="center">Hale-Insta</h3>
 
-### `yarn test`
+  <p align="center">
+    Connecting with people served in style like never before
+    <br />
+    <br />
+    <br />
+    <a href="https://drive.google.com/file/d/1HCuFMu5Jyr4Sq0XbiSyYldSRPE7e6YRg/view?usp=sharing" target='_blank'>View Full Demo</a>
+    ·
+    <a href="https://github.com/hale2024/Hale-Insta/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
+    ·
+    <a href="https://github.com/hale2024/Hale-Insta/issues/new?assignees=&labels=enhancement&template=feature-addition.md&title=%5BFEATURE%5D">Suggest Feature</a>
+  </p>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- Demo gif of Project -->
+![Project Demo](demo.gif)
 
-### `yarn build`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
+    <li><a href="#roadmap">Roadmap</a></li>
+    <!-- <li><a href="#contributing">Contributing</a></li> -->
+    <li><a href="#license">License</a></li>
+    <!-- <li><a href="#contact">Contact</a></li> -->
+    <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+  </ol>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn eject`
+<!-- [![Product Name Screen Shot][product-screenshot]]() -->
+The motivation behind this project was to create a sophisticated application which requires in-depth planning to execute. This is without a doubt the most ambitious project I've done so far. 
+<br />
+When I set out to build this app I only had basic knowledge of `React` and `Node.js` and learning by doing proved to be the best way to pick up `React` fast.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Built With**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* `Node.js`
+* `React`
+* `MongoDB`
+* `Express Server`
+* `JWT Authentication`
+* `React-Redux`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Implementation details**
 
-## Learn More
+This project utilizes a `Node.js` backend and a `React` frontend. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The `Node.js` backend is implemented as a REST API. Client side and Server side communicate with each other via the Axios API. I made use of multer for retrieving media images from the frontend and storing them within the backend. I applied redux thunk middleware to persist data in local storage. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I used MongoDB to store informations such as who followed/unfollowed eachother, who liked whose post and user authentication info. 
 
-### Code Splitting
+Authentication is achieved using JWT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* backend
+  ```sh
+  npm init
+  npm i express
+  npm i mongoose
+  npm i body-parser
+  ```
+* frontend
+	```sh
+	npx create react
+	```
+	
+### Installation
 
-### Advanced Configuration
+* Cloning the Repo (the repo contains all the prerequisites installed within it)
+  ```sh
+ 	git clone https://github.com/hale2024/Hale-Insta.git
+  ```
+  
+### Start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Backend
+  ```sh
+  cd server
+  nodemon server
+  ```
+* Frontend
+  ```sh
+  cd client
+  yarn start
+  ```
+<!-- USAGE EXAMPLES -->
+<!-- ## Usage
 
-### Deployment
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+_For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/hale2024/Hale-Insta/issues) for a list of proposed features (and known issues).
+
+<!-- LICENSE -->
+## References
+
+Various youtube tutorials and documentations on React, React-Redux, Node.js, MongoDB, JWT authentication,.....
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/shamsow/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/shamsow/django-react-homemaker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shamsow/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/shamsow/django-react-homemaker/network/members
+[stars-shield]: https://img.shields.io/github/stars/shamsow/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/shamsow/django-react-homemaker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shamsow/repo.svg?style=for-the-badge
+[issues-url]: https://img.shields.io/github/issues/shamsow/django-react-homemaker
+<!-- [license-shield]: ![GitHub issues](https://img.shields.io/github/issues/shamsow/django-react-homemaker) -->
+[license-url]: https://github.com/shamsow/django-react-homemaker/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hale2024
