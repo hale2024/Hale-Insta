@@ -43,7 +43,7 @@
     <br />
     <br />
     <br />
-    <a href="https://raw.githubusercontent.com/shamsow/django-react-homemaker/main/demo.gif" target='_blank'>View Full Demo</a>
+    <a href="https://drive.google.com/file/d/1HCuFMu5Jyr4Sq0XbiSyYldSRPE7e6YRg/view?usp=sharing" target='_blank'>View Full Demo</a>
     ·
     <a href="https://github.com/hale2024/Hale-Insta/issues/new?assignees=&labels=bug&template=bug_report.md&title=">Report Bug</a>
     ·
