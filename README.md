@@ -86,9 +86,10 @@
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]]() -->
-My motivation for creating this project was creating a complicated project and consequently getting an indepth understanding of the full-stack development life cycle. This project required me to produce well thought out design and implementation plans. I think this is the project I am most proud of so far as a web developer.
+<p>My motivation for creating this project was creating a complicated project and consequently getting an indepth understanding of the full-stack development life cycle. This project required me to produce well thought out design and implementation plans. I think this is the project I am most proud of so far as a web developer.</p>
 <br />
-When I was begining this project, my react knowledge was very basic and this learning by doing path enabled to learn React and that I learnt better through solving new problems through intensive search rather than attending bootcamps. Furthermore, I was able to understand and pick up important middlewares like JWT.
+When I was begining this project, my react knowledge was very basic and this learning by doing path enabled me to learn React and made me realize that I learnt better through solving new problems through intensive search rather than attending bootcamps. Furthermore, I was able to understand and pick up important middlewares like JWT.
+</p>
 
 ### **Built With**
 
